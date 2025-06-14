@@ -3,6 +3,7 @@ import TEMPLATE_TWO_IMG from "../assets/template-two.png"
 import TEMPLATE_THREE_IMG from "../assets/template-three.png"
 import TEMPLATE_Fourth_IMG from "../assets/template 4.jpg"
 import TEMPLATE_Five_IMG from "../assets/template5.jpg"
+import TEMPLATE_Six_IMG from "../assets/template6.png"
 
 
 
@@ -30,6 +31,11 @@ export const resumeTemplates = [
   {
     id: "05",
     thumbnailImg: TEMPLATE_Five_IMG,
+    colorPaletteCode: "themeOne",
+  },
+  {
+    id: "06",
+    thumbnailImg: TEMPLATE_Six_IMG,
     colorPaletteCode: "themeOne",
   },
 ]

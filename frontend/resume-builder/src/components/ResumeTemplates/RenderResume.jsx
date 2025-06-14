@@ -4,6 +4,8 @@ import TemplateTwo from "./TemplateTwo";
 import TemplateThree from "./TemplateThree";
 import TemplateFourth from "./TemplateFourth"; // ✅ Fixed typo from 'TempalteFourth'
 import TemplateFIVE from "./TemplateFive";
+import TemplateSix from "./TemplateSix";
+
 
 const RenderResume = ({
   templateId,
@@ -47,6 +49,14 @@ const RenderResume = ({
           case "05":
       return (
         <TemplateFIVE
+          resumeData={resumeData}
+          colorPalette={colorPalette}
+          containerWidth={containerWidth}
+        />
+      );
+          case "06":
+      return (
+        <TemplateSix
           resumeData={resumeData}
           colorPalette={colorPalette}
           containerWidth={containerWidth}

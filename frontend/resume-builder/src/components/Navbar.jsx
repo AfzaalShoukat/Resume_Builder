@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { UserContext } from "../context/userContext";
+import AboutSection from "../components/layouts/AboutSection";
 
 const Navbar = ({ setOpenAuthModal, setCurrentPage }) => {
   const { user, updateUser } = useContext(UserContext);

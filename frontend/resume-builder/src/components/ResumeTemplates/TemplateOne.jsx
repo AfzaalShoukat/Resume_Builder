@@ -238,6 +238,7 @@ const TemplateOne = ({ resumeData, colorPalette, containerWidth }) => {
                       className="text-[10px] font-medium py-1 px-3 rounded-lg"
                       style={{ backgroundColor: themeColors[2] }}
                     >
+                      
                       {interest}
                     </div>
                   );
