@@ -32,7 +32,7 @@ const LandingPage = ({ setOpenAuthModal, setCurrentPage }) => {
               Craft a standout resume in minutes with our smart and intuitive resume builder.
             </p>
             <button
-              className="bg-black text-sm font-semibold text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition-colors cursor-pointer"
+              className="bg-blue-400 text-2xl  font-semibold text-white px-8 py-3 rounded-lg hover:bg-blue-500 transition-colors cursor-pointer"
               onClick={handleCTA}
             >
               Get Started
@@ -50,26 +50,68 @@ const LandingPage = ({ setOpenAuthModal, setCurrentPage }) => {
             Features That Make You Shine
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition">
-              <h3 className="text-lg font-semibold mb-3">Easy Editing</h3>
-              <p className="text-gray-600">
-                Update your resume sections with live preview and instant formatting.
-              </p>
-            </div>
+            <div className="bg-gray-800 hover:bg-gray-900 p-6 rounded-xl shadow-sm transition-colors duration-300 text-white">
+  <h3 className="text-lg font-semibold mb-3">Easy Editing</h3>
+  <p>
+    Update your resume sections with live preview and instant formatting.
+  </p>
+</div>
 
-            <div className="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition">
-              <h3 className="text-lg font-semibold mb-3">Beautiful Templates</h3>
-              <p className="text-gray-600">
-                Choose from modern, professional templates that are easy to customize.
-              </p>
-            </div>
+<div className="bg-gray-800 hover:bg-gray-900 p-6 rounded-xl shadow-sm transition-colors duration-300 text-white">
+  <h3 className="text-lg font-semibold mb-3">Beautiful Templates</h3>
+  <p>
+    Choose from modern, professional templates that are easy to customize.
+  </p>
+</div>
 
-            <div className="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition">
-              <h3 className="text-lg font-semibold mb-3">One-Click Export</h3>
-              <p className="text-gray-600">
-                Download your resume instantly as a high-quality PDF with one click.
-              </p>
-            </div>
+<div className="bg-gray-800 hover:bg-gray-900 p-6 rounded-xl shadow-sm transition-colors duration-300 text-white">
+  <h3 className="text-lg font-semibold mb-3">One-Click Export</h3>
+  <p>
+    Download your resume instantly as a high-quality PDF with one click.
+  </p>
+</div>
+
+<div className="bg-gray-800 hover:bg-gray-900 p-6 rounded-xl shadow-sm transition-colors duration-300 text-white">
+  <h3 className="text-lg font-semibold mb-3">AI-Powered Builder</h3>
+  <p>
+    Create a professional resume in seconds with intelligent AI suggestions.
+  </p>
+</div>
+
+<div className="bg-gray-800 hover:bg-gray-900 p-6 rounded-xl shadow-sm transition-colors duration-300 text-white">
+  <h3 className="text-lg font-semibold mb-3">Auto Formatting</h3>
+  <p>
+    Say goodbye to alignment issues—our builder handles formatting for you.
+  </p>
+</div>
+
+<div className="bg-gray-800 hover:bg-gray-900 p-6 rounded-xl shadow-sm transition-colors duration-300 text-white">
+  <h3 className="text-lg font-semibold mb-3">Modern Templates</h3>
+  <p>
+    Choose from sleek, professional templates designed to impress recruiters.
+  </p>
+</div>
+
+<div className="bg-gray-800 hover:bg-gray-900 p-6 rounded-xl shadow-sm transition-colors duration-300 text-white">
+  <h3 className="text-lg font-semibold mb-3">Real-Time Editing</h3>
+  <p>
+    Edit your resume live and see changes update instantly with preview mode.
+  </p>
+</div>
+
+<div className="bg-gray-800 hover:bg-gray-900 p-6 rounded-xl shadow-sm transition-colors duration-300 text-white">
+  <h3 className="text-lg font-semibold mb-3">Smart Suggestions</h3>
+  <p>
+    Get role-specific suggestions for skills, summaries, and achievements.
+  </p>
+</div>
+<div className="bg-gray-800 hover:bg-gray-900 p-6 rounded-xl shadow-sm transition-colors duration-300 text-white">
+  <h3 className="text-lg font-semibold mb-3">AI-Powered Builder</h3>
+  <p>
+    Create a professional resume in seconds with intelligent AI suggestions.
+  </p>
+</div>
+
           </div>
         </section>
       </div>

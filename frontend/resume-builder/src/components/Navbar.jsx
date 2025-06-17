@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { UserContext } from "../context/userContext";
 import AboutSection from "../components/layouts/AboutSection";
-
+import About from "./About";
 const Navbar = ({ setOpenAuthModal, setCurrentPage }) => {
   const { user, updateUser } = useContext(UserContext);
   const navigate = useNavigate();
@@ -14,15 +14,15 @@ const Navbar = ({ setOpenAuthModal, setCurrentPage }) => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4 px-6 text-white flex justify-between items-center shadow-md">
+    <nav className="bg-blue-400 p-4 px-6 text-white flex justify-between items-center shadow-md">
       <div className="text-2xl font-bold">
         <Link to="/">Resume Bulider</Link>
       </div>
 
       <div className="flex items-center gap-6">
         <Link to="/" className="hover:underline">Home</Link>
-        <a href="#about" className="hover:underline">About</a>
-        <a href="#contact" className="hover:underline">Contact</a>
+        <Link to="/" className="hover:underline">About</Link>
+        <a href="/" className="hover:underline">Contact</a>
 
         {user ? (
           <>

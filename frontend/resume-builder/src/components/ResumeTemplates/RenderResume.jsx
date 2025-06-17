@@ -2,7 +2,7 @@ import React from "react";
 import TemplateOne from "./TemplateOne";
 import TemplateTwo from "./TemplateTwo";
 import TemplateThree from "./TemplateThree";
-import TemplateFourth from "./TemplateFourth"; // ✅ Fixed typo from 'TempalteFourth'
+import TemplateFourth from "./TemplateFourth";
 import TemplateFIVE from "./TemplateFive";
 import TemplateSix from "./TemplateSix";
 
@@ -46,7 +46,7 @@ const RenderResume = ({
           containerWidth={containerWidth}
         />
       );
-          case "05":
+    case "05":
       return (
         <TemplateFIVE
           resumeData={resumeData}
@@ -54,9 +54,17 @@ const RenderResume = ({
           containerWidth={containerWidth}
         />
       );
-          case "06":
+    case "06":
       return (
         <TemplateSix
+          resumeData={resumeData}
+          colorPalette={colorPalette}
+          containerWidth={containerWidth}
+        />
+      );
+    case "07":
+      return (
+        <TemplateSeven
           resumeData={resumeData}
           colorPalette={colorPalette}
           containerWidth={containerWidth}
